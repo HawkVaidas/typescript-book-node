@@ -1,0 +1,36 @@
+
+.header {
+    background-color: darkslategrey;
+    height: 80px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+.linksWrapper a {
+    display: flex;
+    text-decoration: none;
+    gap: 1rem;
+    color: white;
+}
+.linksWrapper {
+    display: flex;
+    gap: 1rem;
+}
+.header button {
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+}

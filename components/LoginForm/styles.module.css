@@ -1,0 +1,25 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.main input {
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main button {
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.error {
+    color: rgb(139, 15, 15);
+    margin: 0;
+}
