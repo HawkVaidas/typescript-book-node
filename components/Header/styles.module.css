@@ -33,4 +33,6 @@
     cursor: pointer;
     height: 30px;
     width: 80px;
+    border-radius: 5px;
+    border: none;
 }

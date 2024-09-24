@@ -22,3 +22,8 @@
     margin: 1rem;
     object-fit: cover;
 }
+@media only screen and (max-width: 768px){
+    .main {
+        width: 500px;
+    }
+}
