@@ -14,7 +14,7 @@ const ItemPage = () => {
     const [book, setBook] = useState<Book | null>(null);
     const [isModalOpen, setModalOpen] = useState(false);
 
-    const jwt = cookie.get("book_app_jwt");
+    // const jwt = cookie.get("book_app_jwt");
 
     const router = useRouter();
 

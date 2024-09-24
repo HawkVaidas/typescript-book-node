@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import CreateItemForm from '@/components/CreateItemForm/CreateItemForm';
 import PageTemplate from '@/components/PageTemplate/PageTemplate';
 import React from 'react';
@@ -11,7 +11,7 @@ import { useRouter } from 'next/router';
 const CreateItemPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
-  const jwt = cookie.get("book_app_jwt");
+  // const jwt = cookie.get("book_app_jwt");
 
   const router = useRouter();
 
@@ -34,7 +34,7 @@ const CreateItemPage = () => {
         onCancel={() => setModalOpen(false)}  
         />
     )}
-    // </>
+     </>
   
     
     
