@@ -22,7 +22,7 @@
     margin: 1rem;
     object-fit: cover;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 500px){
     .main {
         width: 400px;
     }
